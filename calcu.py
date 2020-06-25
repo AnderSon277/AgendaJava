@@ -9,4 +9,13 @@ def menu():
 	return (op)
 
 
-print(menu())
+def suma():
+	n1 = float(input("Ingrese un numero:  "))
+	n2 = float(input("Ingrese un numero:  "))
+	R = n1 + n2
+	return(R)
+
+
+
+
+print(suma())
