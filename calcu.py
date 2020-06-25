@@ -52,9 +52,13 @@ while (n>0 and n < 6):
 	elif(n==4):
 		num1 = float(input("Ingrese un numero:  "))
 		num2 = float(input("Ingrese otro numero:  "))
-		print("El resultado de la Division es:")
-		print(division(num1,num2))
-		n = menu()
+		if(num2 == 0):
+			print("Error: no se puede divir un numero para cero")
+			n = menu()
+		else:
+			print("El resultado de la Division es:")
+			print(division(num1,num2))
+			n = menu()
 	elif(n==5):
 		print("Gracias por utilizar nuestra CALCULADORA BASICA :D ")
 		n=-1
