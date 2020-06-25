@@ -11,11 +11,17 @@ def menu():
 
 def suma():
 	n1 = float(input("Ingrese un numero:  "))
-	n2 = float(input("Ingrese un numero:  "))
+	n2 = float(input("Ingrese otro numero:  "))
 	R = n1 + n2
+	return(R)
+
+def resta():
+	n1 = float(input("Ingrese un numero:  "))
+	n2 = float(input("Ingrese otro numero:  "))
+	R = n1 - n2
 	return(R)
 
 
 
-
 print(suma())
+print(resta())
