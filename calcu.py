@@ -9,4 +9,29 @@ def menu():
 	return (op)
 
 
-print(menu())
+def suma(n1,n2):
+	R = n1 + n2
+	return(R)
+
+def resta(n1,n2):
+	R = n1 - n2
+	return(R)
+
+def multiplicacion(n1,n2):
+	R = n1 * n2
+	return(R)
+
+def division(n1,n2):
+	R = n1 / n2
+	return(R)
+
+
+
+num1 = float(input("Ingrese un numero:  "))
+num2 = float(input("Ingrese otro numero:  "))
+
+
+print(suma(num1,num2))
+print(resta(num1,num2))
+print(multiplicacion(num1,num2))
+print(division(num1,num2))
